@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Um Site Simples</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <h1>Olá, Mundo!</h1>
-    <p>Estrutura Básica de um documento HTML. &#x1F913;</p>
-    <!-- Comentário -->
-    <div>
-      <a
-        href="https://www.google.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Google
-      </a>
-      <img
-        src="https://gabrielgs.files.wordpress.com/2008/04/tux.png"
-        alt="Tux mascote do Linux."
-      />
-    </div>
-    <ul>
-      <li>Arroz</li>
-      <li>Feijão</li>
-    </ul>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Um Site Simples</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <h1>Olá, Mundo!</h1>
+  <p>Estrutura Básica de um documento HTML. &#x1F913;</p>
+  <!-- Comentário -->
+
+
+
+  <form method="post" action="">
+    <label for="nomePesssoa">Exemplo Post</label>
+    <input type="text" id="nomePessoa" name="name" placeholder="Informe um nome" />
+    <input type="submit" name="enviar"/>
+    <button type="submit">Pesquisar:</button>
+  </form>
+
+
+  <form method="get" action="">
+    <label for="termo">Pesquisar:</label>
+    <input type="text" id="termo" name="q" placeholder="Informe o que deseja pesquisar" />
+    <button type="submit">Pesquisar:</button>
+  </form>
+
+  <br /><br />
+
+  <div>
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+      Google
+    </a>
+    <img src="https://gabrielgs.files.wordpress.com/2008/04/tux.png" alt="Tux mascote do Linux." />
+  </div>
+  <ul>
+    <li>Arroz</li>
+    <li>Feijão</li>
+  </ul>
+</body>
+
 </html>
