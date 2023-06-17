@@ -1,0 +1,11 @@
+Body{
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+.center-list {
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
